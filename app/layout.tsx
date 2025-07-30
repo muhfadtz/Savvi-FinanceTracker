@@ -10,7 +10,9 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Savvi - Mobile Finance Tracker",
   description: "Track your finances with style",
-    generator: 'v0.dev'
+  icons: {
+    icon: "/favicon.ico", // letakkan favicon.ico di folder public
+  },
 }
 
 export default function RootLayout({
